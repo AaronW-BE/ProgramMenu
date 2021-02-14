@@ -1,0 +1,10 @@
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\bin\Debug\GameMenu.exe.config
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\bin\Debug\GameMenu.exe
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\bin\Debug\GameMenu.pdb
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\obj\Debug\GameMenu.csprojAssemblyReference.cache
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\obj\Debug\GameMenu.Properties.Resources.resources
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\obj\Debug\GameMenu.csproj.GenerateResource.cache
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\obj\Debug\GameMenu.csproj.CoreCompileInputs.cache
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\obj\Debug\GameMenu.exe
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\obj\Debug\GameMenu.pdb
+C:\Users\AaronW\source\repos\GameMenu\GameMenu\obj\Debug\GameMenu.MainForm.resources
