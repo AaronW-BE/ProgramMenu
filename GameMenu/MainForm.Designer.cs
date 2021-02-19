@@ -113,6 +113,7 @@ namespace GameMenu
             this.listView1.TabIndex = 2;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listviewEventHandler);
+            this.listView1.AfterLabelEdit += new LabelEditEventHandler(this.afterRename);
             // 
             // contextMenuStrip
             // 
@@ -139,6 +140,16 @@ namespace GameMenu
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void afterRename(object sender, LabelEditEventArgs e)
+        {
+            int item = e.Item;
+            string label = e.Label;
+            Console.WriteLine(this.listView1.Items[item].Text);
+            this.listView1.Items[item].Text = label;
+            Console.WriteLine(this.listView1.Items[item].Text);
+            this.SaveListToFile();
         }
 
         private void renameItem(object sender, EventArgs e)
@@ -170,6 +181,8 @@ namespace GameMenu
             foreach (ListViewItem listViewItem in selectedListItems){
                 listView1.Items.Remove(listViewItem);
             }
+
+            this.SaveListToFile();
         }
 
         private void startApplication(object sender, EventArgs args)
